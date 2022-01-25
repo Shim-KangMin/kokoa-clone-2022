@@ -1,3 +1,3 @@
 # Kokoa Clone 2022
 
-for Awesome programmer !
+For the greatest programmer !
