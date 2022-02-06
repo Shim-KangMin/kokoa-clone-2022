@@ -1,13 +1,17 @@
 .user-component {
-  display: flex;
+  justify-content: space-between;
 }
-.user-component__column {
+.user-component,
+.user-component__column:first-child {
   display: flex;
   align-items: center;
 }
 .user-component__title {
   font-size: 18px;
   font-weight: 600;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
 }
 .user-component__avatar {
   margin-right: 15px;
@@ -22,4 +26,12 @@
 .user-component__avatar--xl {
   width: 70px;
   height: 70px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 37%;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.4);
 }
