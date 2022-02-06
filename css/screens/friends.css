@@ -4,6 +4,7 @@
   background-color: #fafafa;
   margin-top: 90px;
   padding: 10px 0;
+  margin-bottom: 10px;
 }
 #friends-display-link i:first-child {
   margin-right: 5px;
@@ -12,4 +13,7 @@
 #friends-display-link i:last-child {
   margin-left: 8px;
   color: rgba(0, 0, 0, 0.3);
+}
+.friend-screen {
+  padding: 0 var(--horizontal-space);
 }
