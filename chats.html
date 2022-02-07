@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - KoKoa Clone</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -16,9 +16,8 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
-        <i class="fas fa-lock"></i>
-        <span>11%</span>
-        <i class="fas fa-battery-quarter"></i>
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
@@ -26,26 +25,10 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
-        <span>
-          <a href="#">
-            <i class="fas fa-search fa-lg"></i>
-          </a>
-        </span>
-        <span>
-          <a href="#">
-            <i class="far fa-comment-dots fa-lg"></i>
-          </a>
-        </span>
-        <span>
-          <a href="#">
-            <i class="fas fa-music fa-lg"></i>
-          </a>
-        </span>
-        <span>
-          <a href="#">
-            <i class="fas fa-cog fa-lg"></i>
-          </a>
-        </span>
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
@@ -53,7 +36,7 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars.githubusercontent.com/u/60085810"
+            src="https://avatars.githubusercontent.com/u/60085810?s=400&u=54e5efafd260e255bcb0217178d172031538674c&v=4"
             class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
@@ -63,7 +46,10 @@
             </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
       </div>
     </main>
 
@@ -75,8 +61,8 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="chat.html">
-            <span class="nav__chating">1</span>
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
             <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
@@ -86,10 +72,9 @@
           ></a>
         </li>
         <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <div class="nav__notification"></div>
-            <i class="fas fa-ellipsis-h fa-2x"> </i>
-          </a>
+          <a class="nav__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
         </li>
       </ul>
     </nav>

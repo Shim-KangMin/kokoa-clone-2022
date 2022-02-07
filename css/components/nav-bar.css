@@ -2,38 +2,22 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #e9ecef;
-  padding: 20px 0;
-  border-top: 1px solid #dbd4d4;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
 .nav__list {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .nav__link {
   position: relative;
-  color: rgba(0, 0, 0, 0.7);
+  color: #2e363e;
 }
-.nav__chating {
-  font-weight: 600;
-  color: white;
-  position: absolute;
-  bottom: 15px;
-  left: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 25px;
-  height: 25px;
-  background-color: tomato;
-  border-radius: 50%;
-}
+
 .nav__notification {
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: tomato;
   position: absolute;
-  bottom: 26px;
-  left: 30px;
+  left: 15px;
+  bottom: 15px;
 }
